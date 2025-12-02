@@ -1,0 +1,145 @@
+
+  /* Reset & Base Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff8f0;
+    color: #333;
+    padding: 20px;
+}
+
+
+  /* Header */
+
+.first-header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #b22222;
+    font-style: italic;
+}
+
+  /* Main Image */
+
+.image-section .img-nav {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.image-section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-section img:hover {
+    transform: scale(1.05);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+/* Intro Article */
+.intro-article {
+    background-color: #fff5e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Related Links */
+.related-links {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.related-links a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 6px 12px;
+    background-color: #ffe5d4;
+    color: #ff4500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.related-links a:hover {
+    background-color: #ffdab0;
+}
+
+
+  /* Section */ 
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff0e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h4 {
+    color: #b22222;
+    margin-bottom: 12px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+  /* Links */
+
+a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+  /* Responsive Designs */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .soup-section img {
+        max-width: 90%;
+    }
+    .related-links a {
+        display: block;
+        margin: 8px 0;
+    }
+}
